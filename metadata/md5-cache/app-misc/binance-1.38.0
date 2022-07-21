@@ -1,0 +1,14 @@
+DEFINED_PHASES=configure install postinst postrm pretend setup unpack
+DESCRIPTION=Binance cryptocurrency broker official app
+EAPI=8
+HOMEPAGE=https://www.binance.com
+INHERIT=chromium-2 desktop unpacker xdg-utils
+IUSE=system-ffmpeg system-mesa system-vulkan
+KEYWORDS=~amd64
+LICENSE=all-rights-reserved
+RDEPEND=app-accessibility/at-spi2-atk:2 app-crypt/libsecret dev-libs/libappindicator:3 dev-libs/nss sys-apps/util-linux x11-libs/gtk+:3 x11-libs/libXScrnSaver x11-libs/libXtst x11-libs/libnotify system-ffmpeg? ( <media-video/ffmpeg-4.3[chromium] ) system-mesa? ( media-libs/mesa ) system-vulkan? ( media-libs/vulkan-loader )
+RESTRICT=bindist mirror splitdebug test
+SLOT=0
+SRC_URI=https://ftp.binance.com/electron-desktop/linux/production/binance-amd64-linux.deb -> binance-1.38.0.deb
+_eclasses_=toolchain-funcs	1542e649be915f43f6908a9e93909961	multilib	5ca4e49abed8e3a2f7b56920eadee157	linux-info	dcbf4f67bc38bee48e9d69a4344e8059	chromium-2	fe5bb568da464344d16c90acb1c6e91e	desktop	22952d8f27cac191d75529d4c38e6bfa	unpacker	697382d119fd3d195f110b7979184285	xdg-utils	fffb53a53cf17c9c0c998a3c0a590c7e
+_md5_=70f399cbb358a8a09064666ba8a98774
