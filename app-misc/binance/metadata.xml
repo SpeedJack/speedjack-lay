@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "https://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<maintainer type="person">
+		<email>speedjack95@gmail.com</email>
+		<name>Niccolò Scatena</name>
+	</maintainer>
+	<use>
+		<flag name="system-ffmpeg">Use the system-wide <pkg>media-video/ffmpeg</pkg> instead of bundled.</flag>
+		<flag name="system-mesa">Use the system-wide <pkg>media-libs/mesa</pkg> instead of bundled.</flag>
+		<flag name="system-vulkan">Use the system-wide <pkg>media-libs/vulkan-loader</pkg> instead of bundled.</flag>
+	</use>
+	<longdescription>
+		Binance official desktop application. Buy &amp; sell Crypto in minutes,
+		join the world's largest crypto exchange.
+	</longdescription>
+</pkgmetadata>
